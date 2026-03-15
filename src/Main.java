@@ -48,7 +48,7 @@ byte by = 67;
 System.out.println("На каждого ученика расчитано " + perPupil + " листов бумаги.");
 
 
-//task 4
+//task 4 //task number 4
 
 double oneBottle = 2 / 16d;
 System.out.println("За " + oneBottle + " сек. машина поризводит одну бутылку." );
