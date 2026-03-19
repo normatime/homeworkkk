@@ -99,14 +99,12 @@ public class Main {
 
         // task 7
         double sevenKgOf250 = 7 / 0.25;
-        sevenKgOf250 = (sevenKgOf250) + sevenKgOf250 / 2;
-        sevenKgOf250 = sevenKgOf250 / 2;
-        System.out.println(" An athlete will lose 7 kilograms of 250 grams per day in " + sevenKgOf250 + " days.");
-        double sevenKgOf500 = 7 / 0.5;
-        sevenKgOf500 = (sevenKgOf500) + sevenKgOf500 / 2;
-        sevenKgOf500 = sevenKgOf500 / 2;
 
-        System.out.println(" An athlete will lose 7 kilograms of 500 grams per day in " + sevenKgOf500 + " days.");
+        double sevenKgOf500 = 7 / 0.5;
+        double theAverageValue = (sevenKgOf250 + sevenKgOf500) / 2;
+
+        System.out.println("В среднем дней для результата от похудения может потребоваться " + theAverageValue);
+
 
 
 //task 8
